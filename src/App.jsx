@@ -1,10 +1,15 @@
-import './App.css';
+import styled from 'styled-components';
+
+const Div = styled.div`
+	text-align: center;
+`;
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header"></header>
-		</div>
+		<Div>
+			<i className="fa fa-calendar"></i>
+			<div>123</div>
+		</Div>
 	);
 }
 
